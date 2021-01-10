@@ -11377,59 +11377,6 @@ a.text-dark:focus, a.text-dark:hover {
           box-shadow: 0 0 0.5em #8a8a8a;
 }
 
-.slick-prev:before, .slick-next:before {
-  opacity: .75;
-  color: #023459;
-}
-
-.slick-next:before {
-  content: '>';
-}
-
-.slick-prev:before {
-  content: '<';
-}
-
-.slick-next, .slick-prev {
-  width: 10px;
-  height: 10px;
-}
-
-.slick-list .slick-slide img {
-  display: block;
-  width: 100%;
-}
-
-.sssss img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.partner-box .slick-list .slick-slide img {
-  display: block;
-  width: 110%;
-  height: 110%;
-}
-
-.partner-box .slick-slide {
-  display: block;
-}
-
-@media screen and (max-width: 500px) {
-  .partner-box .slick-slide {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
 .breadcrumb {
   background-color: #fefefe;
   padding: .75rem 0rem;
