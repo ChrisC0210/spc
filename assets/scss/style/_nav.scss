@@ -15,7 +15,8 @@
 }
 
 .spc-logo-2 {
-    //margin-top: 4px;
+    margin-top: 10px;
+    //height: 80px;
     img {
         width: 180px;
         @media screen and (max-width: 500px) {
@@ -24,6 +25,34 @@
     }
 }
 
+//https://codepen.io/bootstrapped/pen/KwYGwq?editors=1100
+// EXAMPLE 9 - Center with Flexbox and Text
+.brand-centered {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    top: 0;
+}
+
+.brand-centered .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggle {
+    z-index: 1;
+}
+
+.header-bg-2 {
+    height: 54px;
+    //padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+}
+
+//
 //
 html {
     font-family: sans-serif;
@@ -43,12 +72,17 @@ nav {
     transition: top .5s ease-out;
     //background: #2f3b3f;
     background: $spc-blue;
+    //
+    height: 140px;
+    @media screen and (max-width: 500px) {
+        height: 60px;
+    }
 }
 
 .scroll {
     //top: -90px;
-    top: -100px;
-    //top: 0px;
+    //top: -100px;
+    top: 0px;
 }
 
 .no-scroll {
@@ -161,6 +195,11 @@ main {
     //background: #2f3b3f;
     background: $spc-blue;
     transition: all 0.3s ease;
+    //@at-root  
+    padding-top: 60px;
+    @media screen and (max-width: 500px) {
+        padding-top: 0px;
+    }
 }
 
 .menu ul {
