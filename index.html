@@ -8,11 +8,132 @@
     <title>SPC</title>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/icon/spc.ico">
     <link rel="stylesheet" href="./dist/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"> -->
 </head>
 
 <body>
+    <!-- 123 -->
+    <div class="nav_wrapper sticky-top">
+        <!--<a class="menu-link" href="#menu"></a>-->
+        <div class=" ">
+            <div class="spinner-master">
+                <input type="checkbox" id="spinner-form" />
+                <label for="spinner-form" class="spinner-spin">
+						<div class="spinner diagonal part-1"></div>
+						<div class="spinner horizontal"></div>
+						<div class="spinner diagonal part-2"></div>
+					</label>
+            </div>
+
+            <a href="#search_box" class="btn" id="search">&#9740;</a>
+            <a class="mb-2 navbar-brand spc-logo-2" href="./">
+                <img src="./assets/img/spc-logo.png" alt="">
+            </a>
+            <nav id="menu" class="menu">
+                <ul class="dropdown">
+                    <li><a href="#Link" title="Link">Home</a>
+                        <ul>
+                            <li><a href="#Link" title="Link">Link » </a>
+                                <ul>
+                                    <li><a href="#Link" title="Link">Link</a></li>
+                                    <li><a href="#Link" title="Link">Link</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#Link" title="Link">About</a></li>
+                            <li><a href="#Link" title="Link">Link » </a>
+                                <ul>
+                                    <li><a href="#Link" title="Link">Link</a></li>
+                                    <li><a href="#link" title="Link">Link</a></li>
+                                    <li><a href="#Link" title="Link">Link </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#Link" title="Link">Category</a>
+                        <ul>
+                            <li><a href="#Link" title="Link ">Link</a></li>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Link" title="Link">Portfolio</a>
+                        <ul>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Link" title="Link">Work</a>
+                        <ul>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                            <li><a href="#Link" title=" Link"> Link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Link" title="Link">Playground</a>
+                        <ul>
+                            <li><a href="#Link" title="Link">Link </a></li>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                            <li><a href="#Link" title="Link">Link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Link" title="Link">Sitemap</a></li>
+                </ul>
+            </nav>
+            <form class="search_box" id="search_box" action="/search/">
+                <input name="search_criteria" placeholder="Search here" value="" type="text">
+                <input class="search_icon" value="Search" type="submit">
+            </form>
+        </div>
+
+
+    </div>
+    <!-- 123 -->
+    <!-- <div class="navbar navbar-expand-md sticky-top header-bg bg-blue">
+        <div class="container header-bg-2">
+            <nav role="navigation">
+                <div id="menuToggle">
+
+                    <input type="checkbox" />
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <ul id="menu">
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#">
+                            <li>About</li>
+                        </a>
+                        <a href="#">
+                            <li>Info</li>
+                        </a>
+                        <a href="#">
+                            <li>Contact</li>
+                        </a>
+                        <a href="https://erikterwan.com/" target="_blank">
+                            <li>Show me more</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+            <div class="brand-centered">
+                <a class="navbar-brand spc-logo-2" href="./">
+                    <img src="./assets/img/spc-logo.png" alt="">
+                </a>
+            </div>
+
+            <form class="my-2 my-lg-0 btn-navRight">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </div> -->
+
+
     <!-- header -->
-    <div class="navbar navbar-expand-sm sticky-top header-bg bg-blue">
+    <!-- <div class="navbar navbar-expand-sm sticky-top header-bg bg-blue">
         <nav class="container text-r-1-4-1" style="width: 100%;">
             <a class="navbar-brand spc-logo" href="./">
                 <img src="./assets/img/spc-logo.png" alt="">
@@ -39,13 +160,11 @@
                     </li>
                 </ul>
                 <form class="my-2 my-lg-0 btn-navRight">
-                    <a href="contact-us.html" class="p-2 vela-green">
-						CONTACT US
-					</a>
+                    <a href="contact-us.html" class="p-2 vela-green">CONTACT US</a>
                 </form>
             </div>
         </nav>
-    </div>
+    </div> -->
     <!-- header -->
     <!-- banner -->
     <div class="position-relative p-1 text-center" style="background-color: #f2f2f27e;">
@@ -532,6 +651,8 @@
     <script type="text/javascript" src="./dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="./dist/js/slick.min.js"></script>
+    <!-- sw -->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script> -->
     <script>
         $(document).ready(function() {
             var zindex = 10;
@@ -581,6 +702,60 @@
 
             });
         });
+    </script>
+    <script>
+        $("ul li:has(ul)").addClass("has-submenu");
+        $("ul li ul").addClass("sub-menu");
+        $("ul.dropdown li").hover(function() {
+            $(this).addClass("hover")
+        }, function() {
+            $(this).removeClass("hover")
+        });
+        var $menu = $("#menu"),
+            $menulink = $("#spinner-form"),
+            $search = $("#search"),
+            $search_box = $(".search_box"),
+            $menuTrigger = $(".has-submenu > a");
+        $menulink.click(function(e) {
+            $menulink.toggleClass("active");
+            $menu.toggleClass("active");
+            if ($search.hasClass("active")) {
+                $(".menu.active").css("padding-top", "50px")
+            }
+        });
+        $search.click(function(e) {
+            e.preventDefault();
+            $search_box.toggleClass("active")
+        });
+        $menuTrigger.click(function(e) {
+            e.preventDefault();
+            var t = $(this);
+            t.toggleClass("active").next("ul").toggleClass("active")
+        });
+        $("ul li:has(ul)");
+        $(function() {
+            var e = $(document).scrollTop();
+            var t = $(".nav_wrapper").outerHeight();
+            $(window).scroll(function() {
+                var n = $(document).scrollTop();
+                if ($(document).scrollTop() >= 50) {
+                    $(".nav_wrapper").css("position", "fixed")
+                } else {
+                    $(".nav_wrapper").css("position", "fixed")
+                }
+                if (n > t) {
+                    $(".nav_wrapper").addClass("scroll")
+                } else {
+                    $(".nav_wrapper").removeClass("scroll")
+                }
+                if (n > e) {
+                    $(".nav_wrapper").removeClass("no-scroll")
+                } else {
+                    $(".nav_wrapper").addClass("no-scroll")
+                }
+                e = $(document).scrollTop()
+            })
+        })
     </script>
 
 </body>
