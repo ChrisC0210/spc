@@ -19,7 +19,7 @@
     img {
         width: 180px;
         @media screen and (max-width: 500px) {
-            width: 180px;
+            width: 150px;
         }
     }
 }
@@ -47,7 +47,8 @@ nav {
 
 .scroll {
     //top: -90px;
-    top: 0px;
+    top: -100px;
+    //top: 0px;
 }
 
 .no-scroll {
