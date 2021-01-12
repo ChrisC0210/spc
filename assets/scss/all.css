@@ -10597,6 +10597,11 @@ a.text-dark:focus, a.text-dark:hover {
   background-color: #1b477c !important;
 }
 
+.box-shadow {
+  -webkit-box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+}
+
 @font-face {
   font-family: Gotham, sans-serif;
   src: url("/assets/fonts/Gotham-Bold.otf") format("opentype");
