@@ -29,11 +29,12 @@
         color: #fff;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        padding: 40px 40px 0px 40px;
+        padding: 900px 40px 0px 40px;
+        /* padding: 40px 40px 0px 40px; */
         background-color: rgba(26, 26, 26, 0.1);
         background-position: center;
         background-size: cover;
-        margin: 600px 0 0px 0;
+        /* margin: 600px 0 0px 0; */
     }
     
     .parallax-bg {
@@ -60,29 +61,6 @@
         font-size: 14px;
         max-width: 400px;
         line-height: 1.3;
-    }
-    
-    .swiper-slide img {
-        width: auto;
-        height: auto;
-        max-width: 100%;
-        max-height: 100%;
-        -ms-transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        position: absolute;
-        left: 50%;
-        top: 50%;
-    }
-    
-    .video-none {
-        display: none;
-        background-image: url(http://spc2021.vela.hk/upload_files/banner3/spc-about1.png);
-    }
-    
-    .video-block {
-        display: block;
     }
 </style>
 
@@ -235,16 +213,16 @@
     <!-- Swiper -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image:url(./images/nature-1.jpg)">
+            <div class="swiper-slide" style=" ">
                 <video id="videoo" class="videoo spc-video" autoplay="" loop="" muted="" style="width:100%; z-index: -1000;">
-											<source src="http://spc2021.vela.hk/upload_files/video/st-pauls-college.mp4" type="video/mp4">
-											<source src="video/st-pauls-college.webm" type="video/webm">
-											<source src="http://spc2021.vela.hk/upload_files/video/st-pauls-college.ogv" type="video/ogg">
-										</video>
+          <source src="http://spc2021.vela.hk/upload_files/video/st-pauls-college.mp4" type="video/mp4">
+          <source src="video/st-pauls-college.webm" type="video/webm">
+          <source src="http://spc2021.vela.hk/upload_files/video/st-pauls-college.ogv" type="video/ogg">
+        </video>
             </div>
-            <div class="swiper-slide" style="background-image:url(./images/nature-2.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(./images/nature-3.jpg)"></div>
-            <div class="swiper-slide" style="background-image:url(./images/nature-4.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(http://spc2021.vela.hk/upload_files/banner3/spc-about1.png)"></div>
+            <div class="swiper-slide" style="background-image:url(http://spc2021.vela.hk/upload_files/background/43.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(http://spc2021.vela.hk/upload_files/background/37.jpg)"></div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination swiper-pagination-white"></div>
@@ -253,63 +231,7 @@
         <div class="swiper-button-prev swiper-button-white"></div>
     </div>
 
-    <!-- Swiper -->
-    <div class="swiper-container" id="image" style=" ">
-        <video id="videoo" class="videoo spc-video" autoplay="" loop="" muted="" style="width:100%; z-index: -1000;">
-					<source src="http://spc2021.vela.hk/upload_files/video/st-pauls-college.mp4" type="video/mp4">
-					<source src="video/st-pauls-college.webm" type="video/webm">
-					<source src="http://spc2021.vela.hk/upload_files/video/st-pauls-college.ogv" type="video/ogg">						
-				</video>
-        <!-- <div class="" style="background-image:url(../assets/img/banner-1.jpg)" data-swiper-parallax="-23%"></div>
-						<div class="" style="background-image:url(http://spc2021.vela.hk/upload_files/banner3/spc-about1.png)" data-swiper-parallax="-23%"></div> -->
-        <!-- <div class=" swiper-container" data-swiper-parallax="10%">
-            <video class="spc-video" autoplay="" loop="" muted="" style="width:100%;">
-							<source src="http://spc2021.vela.hk/upload_files/video/st-pauls-college.mp4" type="video/mp4">
-							<source src="video/st-pauls-college.webm" type="video/webm">
-							<source src="http://spc2021.vela.hk/upload_files/video/st-pauls-college.ogv" type="video/ogg">
 
-						</video> -->
-
-
-        <!-- // -->
-        <div class="swiper-wrapper">
-            <!-- 1 -->
-            <div class="swiper-slide">
-                <div class="title" data-swiper-parallax="-300"></div>
-                <div class="subtitle" data-swiper-parallax="-200">St. Paul’s College</div>
-                <div class="text" data-swiper-parallax="-100">
-                    <p>St. Paul’s College is distinctively different from other schools in Hong Kong because we are steeped in tradition. We are proud to say that the history of St. Paul’s is just as old if not older than the history of colonial Hong Kong,
-                        and the prospective students are the continuation of this tradition.</p>
-                </div>
-            </div>
-            <!-- 1 -->
-            <!-- 2 -->
-            <div class="swiper-slide">
-                <div class="title" data-swiper-parallax="-300"></div>
-                <div class="subtitle" data-swiper-parallax="-200">St. Paul’s College</div>
-                <div class="text" data-swiper-parallax="-100">
-                    <p>2 St. Paul’s College is distinctively different from other schools in Hong Kong because we are steeped in tradition. We are proud to say that the history of St. Paul’s is just as old if not older than the history of colonial Hong Kong,
-                        and the prospective students are the continuation of this tradition.</p>
-                </div>
-            </div>
-            <!-- 2 -->
-            <!-- 3 -->
-            <div class="swiper-slide">
-                <div class="title" data-swiper-parallax="-300"></div>
-                <div class="subtitle" data-swiper-parallax="-200">St. Paul’s College</div>
-                <div class="text" data-swiper-parallax="-100">
-                    <p>3 St. Paul’s College is distinctively different from other schools in Hong Kong because we are steeped in tradition. We are proud to say that the history of St. Paul’s is just as old if not older than the history of colonial Hong Kong,
-                        and the prospective students are the continuation of this tradition.</p>
-                </div>
-            </div>
-            <!-- 3 -->
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination swiper-pagination-white"></div>
-        <!-- Add Navigation -->
-        <div class="swiper-button-prev swiper-button-white" id="previous"></div>
-        <div class="swiper-button-next swiper-button-white" id="next"></div>
-    </div>
     <!-- zzz -->
     <!-- banner -->
     <!-- About Us -->
@@ -796,42 +718,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js "></script>
     <!-- <script type="text/javascript" src="./dist/js/all.min.js"></script> -->
     <script type="text/javascript" src="./dist/js/all.js"></script>
-    <script>
-        $(document).ready(function() {
-
-            var images = [
-                "background-image:url(http://spc2021.vela.hk/upload_files/banner3/spc-about1.png)",
-                "background-image:url(http://spc2021.vela.hk/upload_files/background/43.jpg)",
-                "background-image:url(http://spc2021.vela.hk/upload_files/background/37.jpg)",
-            ];
-            var imageIndex = 0;
-
-            $("#previous").on("click", function() {
-                imageIndex = (imageIndex + images.length - 1) % (images.length);
-                $("#image").attr('style', images[imageIndex]);
-            });
-
-            $("").on("click", function() {
-                imageIndex = (imageIndex + 1) % (images.length);
-                $("#image").attr('style', images[imageIndex]);
-            });
-
-            $("#image").attr(images[0]);
-            //
-            // $('#next').click(function() {
-            //     var $this = $("#videoo");
-            //     if ($this.hasClass('videoo')) {
-            //         $this.removeClass();
-            //     } else if ($this.hasClass('videoo')) {
-            //         $this.removeClass('video-none').addClass('video-block');
-            //     } else {
-            //         $this.addClass('video-none');
-            //     }
-            // });
-            //
-
-        });
-    </script>
 
 
 </body>
